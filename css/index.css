@@ -439,6 +439,13 @@
     align-items: center;
 }
 
+form input:focus,
+form textarea:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: transparent !important;
+}
+
 form button {
     padding: 10px;
     padding-inline: 40px;
@@ -447,6 +454,7 @@ form button {
     color: var(--white);
     border: 1px solid #000;
     transition: all 0.6s ease;
+    outline: none;
 }
 
 form button:hover {
